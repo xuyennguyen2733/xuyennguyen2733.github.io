@@ -29,9 +29,9 @@ export class WebAppComponent implements AfterViewInit {
     {
       title: 'Signable - Capstone Project',
       imagePath: 'images/web-preview/signable.webp',
-      link: 'https://signable-ffg0eegcfngdgubn.westus2-01.azurewebsites.net/',
+      // link: 'https://signable-ffg0eegcfngdgubn.westus2-01.azurewebsites.net/',
       summary:
-        'This web app integrates machine learning solutions and 3D illustrations to teach the American Sign Language alphabet.',
+        '(Currently unavailable) This web app integrates machine learning solutions and 3D illustrations to teach the American Sign Language alphabet.',
     },
     {
       title: 'Chinese Typing Practice',
@@ -47,11 +47,11 @@ export class WebAppComponent implements AfterViewInit {
       summary:
         'This web app allows users to log there class information (such as class name, location, time, etc.) onto a weekly calendar.',
     },
-    {
-      title: 'Signaway - Learn Sign Language',
-      summary:
-        '(Comming soon!) Stemming from the idea of Signable, this app goes beyond the ASL alphabet by teaching users basic hand shapes and guiding them through signing words and phrases.',
-    },
+    // {
+    //   title: 'Signaway - Learn Sign Language',
+    //   summary:
+    //     '(Comming soon!) Stemming from the idea of Signable, this app goes beyond the ASL alphabet by teaching users basic hand shapes and guiding them through signing words and phrases.',
+    // },
   ];
 
   constructor(
