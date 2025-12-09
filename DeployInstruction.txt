@@ -34,7 +34,7 @@
 
 3. Build the project
 
-- In the terminal, run `ng build --base-href /[project-name]/`
+- In the terminal, run `ng build --base-href /[project-name]/` if the project is not the root (in this case the 'root' is xuyennguyen2733.github.io). If it is, run `ng build --base-href /`
 - It is *very* important that you have 2 ‘/’ before and after your project name in the command
 - Commit and push the built version
 
